@@ -1749,12 +1749,9 @@ function ApolloContextProvider({ children }) {
 	
   const apolloClient = new ApolloClient({
 		link: authLink.concat(httpLink),
-    // link:httpLink,
-    // uri: "https://butembo.stepzen.net/api/lens/__graphql",
+
 		cache: new InMemoryCache(),
-    // headers: {
-    //   Authorization: "apikey butembo::stepzen.net+1000::f116c911f105d7192e2e3fccfc7d2f8183b5894ee3a5541751676ad945b043b2",
-    // },
+  
 		defaultOptions: {
 			watchQuery: {
 				fetchPolicy: "no-cache",
