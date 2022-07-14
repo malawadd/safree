@@ -1,0 +1,39 @@
+{
+  "name": "safree",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@chakra-ui/react": "^1.8.6",
+    "@dicebear/avatars": "^4.10.3",
+    "@dicebear/big-ears-neutral": "^4.10.3",
+    "@dicebear/micah": "^4.10.2",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/nunito": "^4.5.4",
+    "axios": "^0.26.1",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.1",
+    "framer-motion": "^6.2.8",
+    "graphql": "^16.3.0",
+    "ipfs-http-client": "^56.0.1",
+    "next": "12.1.0",
+    "nft.storage": "^6.1.0",
+    "omit-deep": "^0.3.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
