@@ -4,9 +4,6 @@
 Safree is a web3-enabled short videos solution powered by stepzen api , lens protocol, and livepeer
 AngularJS-powered HTML5 Markdown editor.
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
 ## Features
 
