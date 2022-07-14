@@ -141,7 +141,6 @@ function Video() {
 		let followRequestInfo = {
 			follow: [{ profile: video.profile.id, followModule: null }],
 		};
-		const createFollowTypedData = useContext(ApolloContext);
 
 		let response = await createFollowTypedData(followRequestInfo);
 		let typedData = response.data.createFollowTypedData.typedData;
